@@ -1,0 +1,19 @@
+{
+  "globalDependencies": {
+    "jsonwebtoken": "registry:dt/jsonwebtoken#0.0.0+20160720062725",
+    "koa": "registry:dt/koa#2.0.0+20160724024233",
+    "koa-bodyparser": "registry:dt/koa-bodyparser#3.0.0+20160414124440",
+    "koa-router": "registry:dt/koa-router#7.0.0+20160812160355",
+    "lodash": "registry:dt/lodash#4.14.0+20160830145422",
+    "log4js": "registry:dt/log4js#0.0.0+20160608042355",
+    "moment": "registry:dt/moment#2.11.1+20161010105546",
+    "mongoose": "registry:dt/mongoose#4.5.9+20160826204928",
+    "mz": "registry:dt/mz#0.0.0+20160811111312",
+    "node": "registry:env/node#6.0.0+20160902022231",
+    "request": "registry:dt/request#0.0.0+20160726020908",
+    "request-promise": "registry:dt/request-promise#4.1.0+20161013074249"
+  },
+  "dependencies": {
+    "mongodb": "registry:npm/mongodb#2.1.0+20160721204323"
+  }
+}

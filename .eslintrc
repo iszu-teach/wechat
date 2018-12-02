@@ -1,0 +1,19 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "extends": "standard",
+    "env": {
+        "node": true
+    },
+    "rules": {
+        // allow paren-less arrow functions
+        "arrow-parens": 0,
+        // allow not to add a space after "function"
+        "space-before-function-paren": 0,
+        // allow debugger
+        "no-debugger": 0,
+        // allow chinese whitespace
+        "no-irregular-whitespace": 0,
+        "camelcase": 0
+    }
+}
