@@ -90,7 +90,7 @@ const router = new Router()
  * 4. 微信再次返回一个 `code`, 这次返回的 `code` 可以用来获取用户信息
  * 5. 获取用户信息并写入数据库, 将登录 `token` 传给前端, 结束
  */
-router.get('login', async (ctx, next) => {
+router.get('/login', async (ctx, next) => {
   const { code, state, redirect } = ctx.query
   let user
 

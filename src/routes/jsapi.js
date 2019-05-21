@@ -9,8 +9,8 @@ const { getTokens, jsapiTicket } = require('../lib/wechat')
 const router = new Router()
 
 // 获取用于微信 jsapi 初始化的 signedPackage
-router.get('jsapi', async (ctx, next) => {
-  if (url.parse(ctx.query.url).hostname.endsWith('iszu.cn')) {
+router.get('/jsapi', async (ctx, next) => {
+  if (url.parse(ctx.query.url).hostname.endsWith('szuwechat.cn')) {
     const [, ticket] = await getTokens()
     ctx.result = jsapiTicket.sign(ticket, ctx.query.url)
 
